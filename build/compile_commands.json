@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/aw/projects/phinetuned/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -I/Users/aw/projects/phinetuned/include -I/Users/aw/projects/phinetuned/common -I/Users/aw/projects/phinetuned/src/. -I/Users/aw/projects/phinetuned/src/../include -I/Users/aw/projects/phinetuned/src/../include/ggml -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wpedantic -Wformat=2 -Werror=vla -o CMakeFiles/phinetuned.dir/main.cpp.o -c /Users/aw/projects/phinetuned/main.cpp",
+  "file": "/Users/aw/projects/phinetuned/main.cpp",
+  "output": "CMakeFiles/phinetuned.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/aw/projects/phinetuned/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGGML_USE_ACCELERATE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -I/Users/aw/projects/phinetuned/include -I/Users/aw/projects/phinetuned/common -I/Users/aw/projects/phinetuned/src/. -I/Users/aw/projects/phinetuned/src/../include -I/Users/aw/projects/phinetuned/src/../include/ggml -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wpedantic -Wformat=2 -Wno-unused -Wstrict-prototypes -Werror=vla -Wunused -Wextra -Wcast-qual -Wdouble-promotion -Wshadow -Wno-unused-function -Wmissing-prototypes -o CMakeFiles/ggml.dir/ggml.c.o -c /Users/aw/projects/phinetuned/src/ggml.c",
+  "file": "/Users/aw/projects/phinetuned/src/ggml.c",
+  "output": "src/CMakeFiles/ggml.dir/ggml.c.o"
+},
+{
+  "directory": "/Users/aw/projects/phinetuned/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGGML_USE_ACCELERATE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -I/Users/aw/projects/phinetuned/include -I/Users/aw/projects/phinetuned/common -I/Users/aw/projects/phinetuned/src/. -I/Users/aw/projects/phinetuned/src/../include -I/Users/aw/projects/phinetuned/src/../include/ggml -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wpedantic -Wformat=2 -Wno-unused -Wstrict-prototypes -Werror=vla -Wunused -Wextra -Wcast-qual -Wdouble-promotion -Wshadow -Wno-unused-function -Wmissing-prototypes -o CMakeFiles/ggml.dir/ggml-alloc.c.o -c /Users/aw/projects/phinetuned/src/ggml-alloc.c",
+  "file": "/Users/aw/projects/phinetuned/src/ggml-alloc.c",
+  "output": "src/CMakeFiles/ggml.dir/ggml-alloc.c.o"
+},
+{
+  "directory": "/Users/aw/projects/phinetuned/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGGML_USE_ACCELERATE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -I/Users/aw/projects/phinetuned/include -I/Users/aw/projects/phinetuned/common -I/Users/aw/projects/phinetuned/src/. -I/Users/aw/projects/phinetuned/src/../include -I/Users/aw/projects/phinetuned/src/../include/ggml -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wpedantic -Wformat=2 -Wno-unused -Wstrict-prototypes -Werror=vla -Wunused -Wextra -Wcast-qual -Wdouble-promotion -Wshadow -Wno-unused-function -Wmissing-prototypes -o CMakeFiles/ggml.dir/ggml-backend.c.o -c /Users/aw/projects/phinetuned/src/ggml-backend.c",
+  "file": "/Users/aw/projects/phinetuned/src/ggml-backend.c",
+  "output": "src/CMakeFiles/ggml.dir/ggml-backend.c.o"
+},
+{
+  "directory": "/Users/aw/projects/phinetuned/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGGML_USE_ACCELERATE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -I/Users/aw/projects/phinetuned/include -I/Users/aw/projects/phinetuned/common -I/Users/aw/projects/phinetuned/src/. -I/Users/aw/projects/phinetuned/src/../include -I/Users/aw/projects/phinetuned/src/../include/ggml -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wpedantic -Wformat=2 -Wno-unused -Wstrict-prototypes -Werror=vla -Wunused -Wextra -Wcast-qual -Wdouble-promotion -Wshadow -Wno-unused-function -Wmissing-prototypes -o CMakeFiles/ggml.dir/ggml-quants.c.o -c /Users/aw/projects/phinetuned/src/ggml-quants.c",
+  "file": "/Users/aw/projects/phinetuned/src/ggml-quants.c",
+  "output": "src/CMakeFiles/ggml.dir/ggml-quants.c.o"
+},
+{
+  "directory": "/Users/aw/projects/phinetuned/build/common",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -I/Users/aw/projects/phinetuned/include -I/Users/aw/projects/phinetuned/common -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wpedantic -Wformat=2 -Werror=vla -Wunused-variable -Wno-unused-function -Wno-multichar -o CMakeFiles/common.dir/common.cpp.o -c /Users/aw/projects/phinetuned/common/common.cpp",
+  "file": "/Users/aw/projects/phinetuned/common/common.cpp",
+  "output": "common/CMakeFiles/common.dir/common.cpp.o"
+},
+{
+  "directory": "/Users/aw/projects/phinetuned/build/common",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGGML_USE_ACCELERATE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -I/Users/aw/projects/phinetuned/include -I/Users/aw/projects/phinetuned/common -I/Users/aw/projects/phinetuned/src/. -I/Users/aw/projects/phinetuned/src/../include -I/Users/aw/projects/phinetuned/src/../include/ggml -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Wpedantic -Wformat=2 -Werror=vla -Wunused-variable -Wno-unused-function -Wno-multichar -o CMakeFiles/common-ggml.dir/common-ggml.cpp.o -c /Users/aw/projects/phinetuned/common/common-ggml.cpp",
+  "file": "/Users/aw/projects/phinetuned/common/common-ggml.cpp",
+  "output": "common/CMakeFiles/common-ggml.dir/common-ggml.cpp.o"
+}
+]
