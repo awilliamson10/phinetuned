@@ -1,6 +1,6 @@
 # Define the default target now so that it is always the first target
 BUILD_TARGETS = \
-	main 
+	main quantize
 
 ifndef UNAME_S
 UNAME_S := $(shell uname -s)
@@ -537,6 +537,9 @@ main: main.cpp                                  ggml/ggml.o ggml/llama.o $(COMMO
 	@echo
 	@echo '====  Run ./main -h for help.  ===='
 	@echo
+
+quantize: quantization/quantize.cpp                   build-info.o ggml/ggml.o ggml/llama.o $(OBJS)
+	$(CXX) $(CXXFLAGS) $(filter-out %.h,$^) -o $@ $(LDFLAGS)
 
 common/build-info.cpp: $(wildcard .git/index) ggml/scripts/build-info.sh
 	@sh ggml/scripts/build-info.sh $(CC) > $@.tmp

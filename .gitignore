@@ -33,3 +33,10 @@
 
 # log files
 *.log
+
+# models
+models/
+
+# python
+.DS_Store
+__pycache__
