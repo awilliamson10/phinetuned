@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libcommon-ggml.a "CMakeFiles/common-ggml.dir/common-ggml.cpp.o"
-/Library/Developer/CommandLineTools/usr/bin/ranlib libcommon-ggml.a
