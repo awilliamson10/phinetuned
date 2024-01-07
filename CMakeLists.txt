@@ -150,7 +150,7 @@ find_package(Threads REQUIRED)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/common)
 
-add_subdirectory(src)
+add_subdirectory(ggml)
 add_subdirectory(common)
 
 add_executable(phinetuned main.cpp)
