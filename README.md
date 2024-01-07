@@ -13,4 +13,8 @@ python convert-hf-to-gguf.py models/phi-2
 
 # fp-16 inference
 ./main -m models/phi-2/ggml-model-f16.gguf -p "Question: Write a python function to print the first n numbers in the fibonacci series"
+
+# quantized inference
+./quantize models/phi-2/ggml-model-f16.gguf models/phi-2/ggml-model-q4_0.gguf q4_0
+./main -m models/phi-2/ggml-model-q4_0.gguf -p "Question: Write a python function to print the first n numbers in the fibonacci series"
 ```
